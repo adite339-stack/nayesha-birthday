@@ -1,0 +1,6 @@
+<!doctype html><html lang="id"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>QR Birthday Nayesha</title>
+<style>body{font-family:Arial;background:#120d16;color:#fff;display:grid;place-items:center;min-height:100vh;padding:20px}main{max-width:500px;text-align:center}input,button{width:100%;padding:13px;border-radius:10px;border:0;margin:7px 0}button{background:#d8b675;cursor:pointer}#qr{background:#fff;padding:16px;display:inline-block;margin-top:15px}</style></head>
+<body><main><h1>QR Birthday Nayesha</h1><p>Masukkan URL website setelah di-hosting.</p><input id="url" placeholder="https://website-kamu.com"><button onclick="make()">Buat QR Code</button><div id="qr"></div></main>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script><script>
+function make(){const u=document.getElementById('url').value.trim();if(!u)return;document.getElementById('qr').innerHTML='';new QRCode(document.getElementById('qr'),{text:u,width:240,height:240});}
+</script></body></html>

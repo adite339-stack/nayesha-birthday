@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#120d16">
+<title>Happy Birthday, Nayesha Salwa Ardilia</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="stars"></div>
+<div class="petals"></div>
+
+<section class="opening" id="opening">
+  <div class="opening-card">
+    <div class="tiny">A little surprise for</div>
+    <h1>Nayesha</h1>
+    <p>Tap the gift to open your birthday surprise ✨</p>
+    <button class="gift" id="openGift" aria-label="Buka hadiah">
+      <span class="gift-lid"></span><span class="gift-box"></span><span class="gift-ribbon-v"></span><span class="gift-ribbon-h"></span>
+    </button>
+    <div class="tap">OPEN GIFT</div>
+  </div>
+</section>
+
+<main id="main" class="hidden">
+  <section class="hero">
+    <div class="glow"></div>
+    <div class="clock-wrap">
+      <div class="clock" id="clock">
+        <span class="hand hour"></span><span class="hand minute"></span><span class="hand second"></span>
+        <span class="center"></span>
+        <i class="n n12">12</i><i class="n n3">3</i><i class="n n6">6</i><i class="n n9">9</i>
+      </div>
+    </div>
+
+    <div class="vinyl" id="vinyl"><div class="label">N</div><div class="hole"></div></div>
+    <div class="flower flower-a">✿</div><div class="flower flower-b">❀</div><div class="flower flower-c">✾</div>
+
+    <div class="hero-copy">
+      <div class="eyebrow">A SPECIAL DAY FOR YOU</div>
+      <h1>Happy Birthday</h1>
+      <h2>Nayesha Salwa Ardilia</h2>
+      <p class="date">May your day be filled with beautiful moments, warm smiles, and everything you wish for.</p>
+      <button class="music-btn" id="musicBtn">♫ Play music</button>
+    </div>
+  </section>
+
+  <section class="message">
+    <div class="paper">
+      <div class="paper-flower">❀</div>
+      <div class="script">for you, Nayesha</div>
+      <h2>Another beautiful chapter begins…</h2>
+      <p>
+        Selamat ulang tahun, Nayesha. Semoga selalu diberi kesehatan, kebahagiaan,
+        kelancaran dalam setiap langkah, dan dikelilingi orang-orang yang tulus menyayangimu.
+      </p>
+      <p>
+        Semoga semua doa baikmu satu per satu menemukan jalannya. Tetap menjadi
+        Nayesha yang hangat, ceria, dan penuh cerita indah. 🤍
+      </p>
+    </div>
+  </section>
+
+  <section class="gallery">
+    <div class="section-title">little memories</div>
+    <h2>Moments of Nayesha</h2>
+    <div class="slider" id="slider">
+      <div class="slides">
+        <img src="01.jpg" alt="Nayesha">
+        <img src="02.jpg" alt="Nayesha">
+        <img src="03.jpg" alt="Nayesha">
+        <img src="04.jpg" alt="Nayesha">
+        <img src="05.jpg" alt="Nayesha">
+        <img src="06.jpg" alt="Nayesha">
+        <img src="07.jpg" alt="Nayesha">
+        <img src="08.jpg" alt="Nayesha">
+        <img src="09.jpg" alt="Nayesha">
+        <img src="10.jpg" alt="Nayesha">
+      </div>
+      <button class="prev" aria-label="Sebelumnya">‹</button>
+      <button class="next" aria-label="Berikutnya">›</button>
+      <div class="dots" id="dots"></div>
+    </div>
+  </section>
+
+  <section class="surprise">
+    <div class="gift-stage">
+      <div class="flowers-left">🌷🌸🌷</div>
+      <div class="flowers-right">🌸🌷🌸</div>
+      <div class="big-gift" id="bigGift"><div class="bow">🎀</div><div class="lid"></div><div class="body"></div></div>
+    </div>
+    <h2>One more little wish…</h2>
+    <p>Semoga tahun ini membawa lebih banyak alasan untuk tersenyum.</p>
+    <button id="wishBtn">Make a wish ✨</button>
+  </section>
+
+  <section class="outro">
+    <img src="11_outro.jpg" alt="Nayesha" class="outro-photo">
+    <div class="outro-overlay">
+      <div class="script">Happy Birthday</div>
+      <h2>Nayesha Salwa Ardilia</h2>
+      <p>With love &amp; the best wishes, always.</p>
+    </div>
+  </section>
+</main>
+
+<audio id="music" preload="auto" loop src="music/birthday-music.mp3"></audio>
+<div class="toast" id="toast">✨ Make a wish. May it come true.</div>
+<script src="script.js"></script>
+</body>
+</html>
